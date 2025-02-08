@@ -1,0 +1,41 @@
+# Main options
+title-text: ""
+desktop-image: "background.png"
+desktop-color: "#000000"
+terminal-font: "Terminus Regular 14"
+terminal-box: "terminal_box_*.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+# Boot menu
++ boot_menu {
+  left = 60%
+  top = 41%
+  width = 21%
+  height = 20%
+  item_font = "Ubuntu Regular 17"
+  item_color = "#E4CBB6"
+  selected_item_color = "#D2738A"
+  icon_width = 30
+  icon_height = 30
+  item_icon_space = 8
+  item_height = 40
+  item_padding = 0
+  item_spacing = 6
+}
+
+
+# Countdown label
+# You can change the name of default starting OS here
++ label {
+  left = 60%
+  top = 73%
+  align = "center"
+  id = "__timeout__"
+  text = "Booting in %d seconds..."
+  color = "#CCCCCC"
+  font = "Ubuntu Regular 17"
+}
