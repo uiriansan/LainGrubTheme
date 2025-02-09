@@ -21,3 +21,4 @@ GRUB_THEME="/boot/grub/themes/lain/theme.txt"
 
 # Special thanks
 - [AdisonCavani/distro-grub-themes](https://github.com/AdisonCavani/distro-grub-themes): Code reference;
+- [fauux.neocities.org](https://fauux.neocities.org/): Lain banner image;
