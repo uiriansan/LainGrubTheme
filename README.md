@@ -18,6 +18,19 @@ $ sudoedit /etc/default/grub
 ...
 GRUB_THEME="/boot/grub/themes/lain/theme.txt"
 ```
+### Patch GRUB entries
+    There are some limits to what a GRUB theme can do. By default, some GRUB entries have really long names and no icons (e.g. os-prober entries and Advanced options). To change this, we need to edit some GRUB scripts located in ```/etc/grub.d/```. 
+    \
+    Run ```patch_entries.sh``` to automatically make GRUB look better:
+    ```bash
+    $ ./patch_entries.sh
+    ```
+
+    ### Patching manually
+    Read the [wiki](https://github.com/uiriansan/LainGrubTheme/wiki/Patch-entries).
+
+# Customizing
+    There is a quick guide on how to customize this theme even further in the [wiki](https://github.com/uiriansan/LainGrubTheme/wiki/Customizing)
 
 # Special thanks
 - [AdisonCavani/distro-grub-themes](https://github.com/AdisonCavani/distro-grub-themes): Code reference;
