@@ -26,11 +26,11 @@ GRUB_THEME="/boot/grub/themes/lain/theme.txt"
     $ ./patch_entries.sh
     ```
 
-    ### Patching manually
-    Read the [wiki](https://github.com/uiriansan/LainGrubTheme/wiki/Patch-entries).
+### Patching manually
+Read the [wiki](https://github.com/uiriansan/LainGrubTheme/wiki/Patch-entries).
 
 # Customizing
-    There is a quick guide on how to customize this theme even further in the [wiki](https://github.com/uiriansan/LainGrubTheme/wiki/Customizing)
+There is a quick guide on how to customize this theme even further in the [wiki](https://github.com/uiriansan/LainGrubTheme/wiki/Customizing)
 
 # Special thanks
 - [AdisonCavani/distro-grub-themes](https://github.com/AdisonCavani/distro-grub-themes): Code reference;
