@@ -1,8 +1,8 @@
 # Main options
 title-text: ""
-desktop-image: "background.png"
+desktop-image: "assets/background.png"
 desktop-color: "#000000"
-terminal-font: "Terminus Regular 14"
+terminal-font: "terminus-14.pf2"
 terminal-box: "terminal_box_*.png"
 terminal-left: "0"
 terminal-top: "0"
@@ -10,12 +10,31 @@ terminal-width: "100%"
 terminal-height: "100%"
 terminal-border: "0"
 
-# Boot menu
+# banner
++ image {
+	left = 371
+	top = 240 
+	width = 527
+	height = 600
+	file = "assets/banner.png"
+}
+
+# title
++ label {
+	left = 1152
+	top = 375
+	align = "left"
+	text = "Choose an OS"
+	color = "#E4CBB6"
+	font = "Ubuntu Bold 20"
+}
+
+# menu
 + boot_menu {
-  left = 60%
-  top = 41%
-  width = 21%
-  height = 20%
+  left = 1152 
+  top = 443
+  width = 385
+  height = 200
   item_font = "Ubuntu Regular 17"
   item_color = "#E4CBB6"
   selected_item_color = "#D2738A"
@@ -27,13 +46,20 @@ terminal-border: "0"
   item_spacing = 6
 }
 
+# keys
++ image {
+	left = 1152
+	top = 676
+	width = 349
+	height = 30
+	file = "assets/keys.png"
+}
 
-# Countdown label
-# You can change the name of default starting OS here
+# countdown
 + label {
-  left = 60%
-  top = 73%
-  align = "center"
+  left = 1152
+  top = 787
+  align = "left"
   id = "__timeout__"
   text = "Booting in %d seconds..."
   color = "#CCCCCC"
