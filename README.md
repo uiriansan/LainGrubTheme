@@ -1,8 +1,8 @@
 <img src="./preview.png" width="100%" />
 
+This theme was designed for a 1920x1080 display. Refer to the [wiki](https://github.com/uiriansan/LainGrubTheme/wiki/Customizing) to see how to customize it for a different resolution.
+
 # Installation
-This theme was designed for a 1920x1080 display. Refer to the [wiki](https://github.com/uiriansan/LainGrubTheme/wiki/Customizing) to see how to customize it for a different resolution.\
-\
 ```bash
 $ git clone https://github.com/uiriansan/LainGrubTheme && cd LainGrubTheme && ./install.sh | bash
 ```
