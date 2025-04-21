@@ -16,8 +16,7 @@ $ sudo cp -r -f lain /boot/grub/themes/
 ```bash
 $ sudoedit /etc/default/grub
 
-# Here's how it should look like:
-...
+# It should look like this:
 GRUB_THEME="/boot/grub/themes/lain/theme.txt"
 ```
 # Patch GRUB entries
@@ -27,8 +26,8 @@ There are some limits to what a GRUB theme can do. By default, some GRUB entries
 Read the [wiki](https://github.com/uiriansan/LainGrubTheme/wiki/Patch-entries).
 
 # Customizing
-There is a quick guide on how to customize this theme even further in the [wiki](https://github.com/uiriansan/LainGrubTheme/wiki/Customizing)
+There is a quick guide on how to customize this theme further in the [wiki](https://github.com/uiriansan/LainGrubTheme/wiki/Customizing)
 
 # Special thanks
 - [AdisonCavani/distro-grub-themes](https://github.com/AdisonCavani/distro-grub-themes): Code reference;
-- [fauux.neocities.org](https://fauux.neocities.org/): Lain banner image;
+- [fauux.neocities.org](https://fauux.neocities.org/): Lain banner image.
