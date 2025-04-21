@@ -1,9 +1,5 @@
 #!/usr/bin/bash
 
-# Remember last boot entry
-sudo sed -i 's/^GRUB_DEFAULT=.*/GRUB_DEFAULT=saved/g' /etc/default/grub
-sudo sed -i 's/^#GRUB_SAVEDEFAULT=.*/GRUB_SAVEDEFAULT=true/g' /etc/default/grub
-
 # Removing the partition names from os-prober entries
 sudo sed -i 's/onstr="$(gettext_printf "(on %s)" "${DEVICE}")"/onstr=""/g' /etc/grub.d/30_os-prober
 
@@ -21,3 +17,5 @@ sudo sed -i 's/gettext_printf "Advanced options for %s" "\${OS}" | grub_quote)\'
 sudo sed -i 's/menuentry \'$LABEL\' \\\$menuentry_id_option/menuentry \'$LABEL\' --class uefi_firmware_settings \\\$menuentry_id_option/g' /etc/grub.d/30_uefi-firmware
 
 sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+echo -e "\e[32m\e[1mGRUB theme installed!\e[0m"

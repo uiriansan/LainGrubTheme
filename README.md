@@ -19,8 +19,18 @@ $ sudoedit /etc/default/grub
 # It should look like this:
 GRUB_THEME="/boot/grub/themes/lain/theme.txt"
 ```
+3. Set ```GRUB_GFXMODE=``` to the correct resolution:
+```bash
+GRUB_GFXMODE=1920x1080
+```
+4. Optionally, make Grub remember the last option selected by modifying ```GRUB_DEFAULT=``` and ```GRUB_SAVEDEFAULT=```:
+```bash
+GRUB_DEFAULT=saved
+GRUB_SAVEDEFAULT=true
+```
+
 # Patch GRUB entries
-There are some limits to what a GRUB theme can do. By default, some GRUB entries have really long names and no icons (e.g. os-prober entries and Advanced options). To change this, we need to edit some GRUB scripts located in ```/etc/grub.d/```. Run ```patch_entries.sh``` to automatically make GRUB look better.
+There are some limits to what a GRUB theme can do. By default, some GRUB entries have really long names and no icons (e.g. os-prober entries and Advanced options). To change this, we need to edit some GRUB scripts located in ```/etc/grub.d/```. Run ```patch_entries.sh``` to apply some changes automatically.
 
 ### Patching manually
 Read the [wiki](https://github.com/uiriansan/LainGrubTheme/wiki/Patch-entries).
