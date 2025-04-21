@@ -13,4 +13,4 @@ sudo sed -i 's/^GRUB_DEFAULT=.*/GRUB_DEFAULT=saved/g' /etc/default/grub
 sudo sed -i 's/^#GRUB_SAVEDEFAULT=.*/GRUB_SAVEDEFAULT=true/g' /etc/default/grub
 
 echo -e "\e[32m\e[1mGRUB theme installed!\e[0m"
-echo "Consider running `patch_entries.sh`. Read https://github.com/uiriansan/LainGrubTheme/blob/main/README.md to see what it does."
+echo "Consider running `patch_entries.sh`. \e[34mRead https://github.com/uiriansan/LainGrubTheme/blob/main/README.md\e[0m to see what it does."

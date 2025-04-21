@@ -18,4 +18,4 @@ sudo sed -i 's/menuentry \'$LABEL\' \\\$menuentry_id_option/menuentry \'$LABEL\'
 
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
-echo -e "\e[32m\e[1mGRUB theme installed!\e[0m"
+echo -e "\e[32m\e[1mGRUB entries patched!\e[0m"

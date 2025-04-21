@@ -1,4 +1,4 @@
-<img src="./preview.png" width="100%" />
+<img src="./wiki/preview.png" width="100%" />
 
 This theme was designed for a 1920x1080 display. Refer to the [wiki](https://github.com/uiriansan/LainGrubTheme/wiki/Customizing) to see how to customize it for a different resolution.
 
@@ -10,7 +10,7 @@ $ git clone https://github.com/uiriansan/LainGrubTheme && cd LainGrubTheme && ./
 ### Manual installation
 1. Copy ```lain/``` into ```/boot/grub/themes/```:
 ```bash
-$ sudo cp -r -f lain /boot/grub/themes/
+$ sudo cp -rf lain /boot/grub/themes/
 ```
 2. In ```/etc/default/grub```, uncomment the line that says "GRUB_THEME" and add the path to ```theme.txt```:
 ```bash
@@ -26,7 +26,7 @@ GRUB_GFXMODE=1920x1080
 4. Optionally, make Grub remember the last option selected by modifying ```GRUB_DEFAULT=``` and ```GRUB_SAVEDEFAULT=```:
 ```bash
 GRUB_DEFAULT=saved
-GRUB_SAVEDEFAULT=true
+GRUB_SAVEDEFAULT=true # Make sure to uncomment this one.
 ```
 
 # Patch GRUB entries
