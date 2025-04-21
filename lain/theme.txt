@@ -13,7 +13,7 @@ terminal-border: "0"
 # banner
 + image {
 	left = 371
-	top = 240 
+	top = 240
 	width = 527
 	height = 600
 	file = "assets/banner.png"
@@ -31,19 +31,19 @@ terminal-border: "0"
 
 # menu
 + boot_menu {
-  left = 1152 
-  top = 443
-  width = 385
-  height = 200
-  item_font = "Ubuntu Regular 17"
-  item_color = "#E4CBB6"
-  selected_item_color = "#D2738A"
-  icon_width = 30
-  icon_height = 30
-  item_icon_space = 8
-  item_height = 40
-  item_padding = 0
-  item_spacing = 6
+    left = 1152
+    top = 443
+    width = 385
+    height = 200
+    item_font = "Ubuntu Regular 17"
+    item_color = "#E4CBB6"
+    selected_item_color = "#D2738A"
+    icon_width = 30
+    icon_height = 30
+    item_icon_space = 8
+    item_height = 40
+    item_padding = 0
+    item_spacing = 6
 }
 
 # keys
@@ -57,11 +57,11 @@ terminal-border: "0"
 
 # countdown
 + label {
-  left = 1152
-  top = 787
-  align = "left"
-  id = "__timeout__"
-  text = "Booting in %d seconds..."
-  color = "#CCCCCC"
-  font = "Ubuntu Regular 17"
+    left = 1152
+    top = 787
+    align = "left"
+    id = "__timeout__"
+    text = "Booting in %d seconds..."
+    color = "#CCCCCC"
+    font = "Ubuntu Regular 17"
 }
