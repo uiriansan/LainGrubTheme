@@ -1,6 +1,6 @@
 <img src="./wiki/preview.png" width="100%" />
 
-This theme was designed for a 1920x1080 display. Refer to the [wiki](https://github.com/uiriansan/LainGrubTheme/wiki/Customizing) to see how to customize it for a different resolution.
+This theme was designed for a 1920x1080 display. Refer to the [wiki](https://github.com/uiriansan/LainGrubTheme/wiki/Customizing#resolution) to see how to customize it for a different resolution.
 
 # Installation
 ```bash
@@ -33,7 +33,7 @@ GRUB_SAVEDEFAULT=true # Make sure to uncomment this one.
 There are some limits to what a GRUB theme can do. By default, some GRUB entries have really long names and no icons (e.g. os-prober entries and Advanced options). To change this, we need to edit some GRUB scripts located in ```/etc/grub.d/```. Run ```patch_entries.sh``` to apply some changes automatically.
 
 ### Patching manually
-Read the [wiki](https://github.com/uiriansan/LainGrubTheme/wiki/Patch-entries).
+Read the [wiki](https://github.com/uiriansan/LainGrubTheme/wiki/Patch-entries#patching-manually).
 
 # Customizing
 There is a quick guide on how to customize this theme further in the [wiki](https://github.com/uiriansan/LainGrubTheme/wiki/Customizing)
