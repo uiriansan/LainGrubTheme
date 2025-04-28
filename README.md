@@ -8,6 +8,9 @@ $ git clone https://github.com/uiriansan/LainGrubTheme && cd LainGrubTheme && ./
 ```
 
 ### Manual installation
+> [!NOTE]
+> You can download the compressed files from the [latest release](https://github.com/uiriansan/LainGrubTheme/releases/latest).
+
 1. Copy ```lain/``` into ```/boot/grub/themes/```:
 ```bash
 $ sudo cp -rf lain /boot/grub/themes/
