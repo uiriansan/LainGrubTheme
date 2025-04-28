@@ -8,25 +8,29 @@ $ git clone https://github.com/uiriansan/LainGrubTheme && cd LainGrubTheme && ./
 ```
 
 ### Manual installation
+1. Clone this repo:
 > [!NOTE]
-> You can download the compressed files from the [latest release](https://github.com/uiriansan/LainGrubTheme/releases/latest).
-
-1. Copy ```lain/``` into ```/boot/grub/themes/```:
+> You can also download the compressed files from the [latest release](https://github.com/uiriansan/LainGrubTheme/releases/latest).
+```bash
+$ git clone --depth=1 https://github.com/uiriansan/LainGrubTheme.git
+$ cd LainGrubTheme
+```
+2. Copy ```lain/``` into ```/boot/grub/themes/```:
 ```bash
 $ sudo cp -rf lain /boot/grub/themes/
 ```
-2. In ```/etc/default/grub```, uncomment the line that says "GRUB_THEME" and add the path to ```theme.txt```:
+3. In ```/etc/default/grub```, uncomment the line that says "GRUB_THEME" and add the path to ```theme.txt```:
 ```bash
 $ sudoedit /etc/default/grub
 
 # It should look like this:
 GRUB_THEME="/boot/grub/themes/lain/theme.txt"
 ```
-3. Set ```GRUB_GFXMODE=``` to the correct resolution:
+4. Set ```GRUB_GFXMODE=``` to the correct resolution:
 ```bash
 GRUB_GFXMODE=1920x1080
 ```
-4. Optionally, make Grub remember the last option selected by modifying ```GRUB_DEFAULT=``` and ```GRUB_SAVEDEFAULT=```:
+5. Optionally, make Grub remember the last option selected by modifying ```GRUB_DEFAULT=``` and ```GRUB_SAVEDEFAULT=```:
 ```bash
 GRUB_DEFAULT=saved
 GRUB_SAVEDEFAULT=true # Make sure to uncomment this one.
