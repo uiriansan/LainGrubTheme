@@ -30,7 +30,7 @@ GRUB_SAVEDEFAULT=true # Make sure to uncomment this one.
 ```
 
 # Patch GRUB entries
-There are some limits to what a GRUB theme can do. By default, some GRUB entries have really long names and no icons (e.g. os-prober entries and Advanced options). To change this, we need to edit some GRUB scripts located in ```/etc/grub.d/```. Run ```patch_entries.sh``` to apply some changes automatically.
+There are some limitations to what a GRUB theme can do. By default, some GRUB entries have really long names and no icons (e.g. os-prober entries and Advanced options). To change this, we need to edit some GRUB scripts located in ```/etc/grub.d/```. Run ```patch_entries.sh``` to apply some changes automatically.
 
 ### Patching manually
 Read the [wiki](https://github.com/uiriansan/LainGrubTheme/wiki/Patch-entries#patching-manually).
